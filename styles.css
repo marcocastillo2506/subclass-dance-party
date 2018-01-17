@@ -5,11 +5,18 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url("https://orig00.deviantart.net/8bed/f/2015/058/a/8/smb1_background_by_steamerthesteamtrain-d8jq7ea.png");
+  background-repeat: no-repeat;
+ background-size: 100% 100%;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
 .title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.title, .lineUp{
   padding:5px 12px;
   float:right;
 }
@@ -24,4 +31,58 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.spinning-dancer {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  position: absolute;
+}
+
+.bouncy-dancer {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  position: absolute;
+}
+
+.friend {
+  border: 10px solid blue;
+}
+
+.Dancer.MarioBrosRun {
+  background-image:"<img src='MarioBros.gif'/>"
+  background-size: 260px 200px;
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 200px;
+  position: absolute;
+}
+
+.bart {
+  background-image: url("http://38.media.tumblr.com/5697f6394d15c43cab55d5622be1bdf9/tumblr_mq747zre4N1qfrrv2o1_500.gif");
+  background-size: 260px 200px;
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 200px;
+  position: absolute;
+}
+
+
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transfrom: scale(1,1) rotate(0deg);
+
+  }
+  50% {
+    -webkit-transform: translate(400px, 200px) scale(4,4) rotate(180deg);
+
+  }
+  100% {
+   -webkit-transform: translate(-200px, 100px) scale(1,1) rotate(360deg);
+  }
+}
+
+.rotating {
+  -webkit-animation: rotating 1s linear infinite;
 }
