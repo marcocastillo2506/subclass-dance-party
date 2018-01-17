@@ -28,45 +28,27 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
+
   border-radius:10px;
   position:absolute;
 }
-.spinning-dancer {
-  height: 40px;
-  width: 40px;
-  background-color: blue;
-  position: absolute;
-}
 
-.bouncy-dancer {
-  height: 50px;
-  width: 50px;
-  background-color: blue;
-  position: absolute;
-}
+
+
 
 .friend {
   border: 10px solid blue;
 }
 
-.Dancer.MarioBrosRun {
+.dancer.MarioBrosRun {
   background-image:"<img src='MarioBros.gif'/>"
-  background-size: 260px 200px;
+  background-size: 20px 50px;
   background-repeat: no-repeat;
-  height: 260px;
-  width: 200px;
+  height: 20px;
+  width: 50px;
   position: absolute;
 }
 
-.bart {
-  background-image: url("http://38.media.tumblr.com/5697f6394d15c43cab55d5622be1bdf9/tumblr_mq747zre4N1qfrrv2o1_500.gif");
-  background-size: 260px 200px;
-  background-repeat: no-repeat;
-  height: 260px;
-  width: 200px;
-  position: absolute;
-}
 
 
 @-webkit-keyframes rotating {

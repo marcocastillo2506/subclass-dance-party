@@ -1,5 +1,6 @@
 var MarioBrosRun = function(top, left, timeBetweenSteps) {
-  this.$node.addClass('MarioBrosRun').prepend("<img src='MarioBros.gif'/>");
+Dancer.call(this,top, left, timeBetweenSteps)
+  this.$node.addClass('MarioBrosRun').prepend("<img src='MarioBros.gif' height=200px with=100px />");
   Dancer.apply(this, arguments);
   console.log(this);
 };
